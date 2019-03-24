@@ -1,0 +1,131 @@
+*{
+    margin: 0px; padding: 0px;
+}
+header img{float: left;}
+header  strong h1{float: left}
+body{
+    background: #000D33; background-size: cover;
+}
+.main{ width: auto; height: auto;
+
+}
+.header{width: 100%; height: 150px; background-color: #000D33; margin: auto; float: left; border-bottom: 4px solid; border-bottom-color: white;}
+
+.logo{width: 150px; height: 150px; background:#000D33; float: left; margin-left: 20px; text-align: center;}
+.titel{width: 1000px; height: 150px; background:#000D33; float: left; text-align: center;}
+
+.titel h1{color: #ffffff;display: inline-block; font-size: 60px; line-height: 60px; margin-top: 40px; margin-left: 0px;}
+
+.menu{
+    width: 100%; height: 65px;  margin-left: auto; margin-right: auto; float: left;
+    background-color:#000D33 ;
+}
+
+.menu ul{
+    list-style: none; margin-left: 100px; 
+}
+
+.menu ul li{
+    background-color: #000D33; border: 2px solid white; width: 181.50px; height: 50px; text-align: center; line-height: 50px; float: left; font-size: 20px; position: relative; border-radius: 30px 0 30px 0; margin-left: 6px; margin-top: 5px; 
+}
+
+.menu ul li a{
+    text-decoration: none; display: block;color: blue;
+}
+
+.menu ul li a:hover{
+    background-color:blueviolet; border-radius: 10px; border-radius: 30px 0 30px 0;color: darkblue;
+}
+
+.menu ul ul{
+    position: absolute; 
+    display: none; margin-left: -8px;
+}
+.menu ul ul li{
+    background-color: #000D33;
+}
+
+
+
+
+.menu ul li:hover>ul{
+    display: block; 
+}
+
+
+
+
+
+/*    slider  */
+
+
+.slider{width: 100%; height: 500px; background-color:aqua; float: left; text-align: center; }
+
+
+
+
+.hrr{ height:  10px; width: auto; background-color:#001F55; border-color:#001F55;  }
+
+#banner {height: 200px;
+		padding: 16em 0 13em 0;
+		background-attachment: fixed;
+		background-image: url("img/overlay.png"), url("img/FCI (7).JPG");
+		background-position: center top;
+		background-size: cover;
+		line-height: 1.75;
+		text-align: center;
+	}
+#banner h2 {
+			color: #ffffff;
+			display: inline-block;
+			font-size: 30px;
+			line-height: 1.35;
+            margin-bottom: 0.5em;}
+
+/*=====teacher message left======*/
+.message{width: 100%; height: 700px;background-color: darkgray ; float: left;  margin-bottom: 100px;}
+
+.message h1{text-align: center; display: block; font-size: 30px;background-color: #000924; color: white;}
+
+.msdivie{width: 50%;height: 665px;float: left; background-color: }
+
+.msimg{width: 200px;height: 200px;background-color: darkgray;border-radius: 100%; float: right;margin-top: 50px;margin-right: 50px;}
+
+.msimg img{width: 200px;height: 200px;background-color: darkgray;border-radius: 100%;float: none;border: 4px solid  rgba(14, 14, 24, .5);}
+
+.messaging{width: 300px;height: 300px;background-color: darkgray; float: left; margin-top: 30px; color:darkslategray; text-align: right;margin-left: 100px;  }
+
+/*=====teacher message right======*/
+.msdivielft{width: 50%;height: 665px;float: left; background-color:;}
+
+.messaginglft{width: 300px;height: 300px;background-color: darkgray; float: right; margin-top: 30px; color:darkslategray; text-align: left;margin-right: 100px;  }
+
+.msimglft{width: 200px;height: 200px;background-color: darkgray;border-radius: 100%;float: left;margin-top: 50px;margin-left: 50px;}
+
+.msimglft img{width: 200px;height: 200px;background-color: darkgray;border-radius: 100%;float: none; border: 4px solid  rgba(14, 14, 24, .5);}}
+
+
+
+
+
+
+.latestnotice{height: 600px; width: 200px; background-color: rgba(0,0,0,0.3); float: left; margin-left: 110px; border-radius: 10px; color: white;text-align: center;}
+
+.notice{height: auto; width: 200px; background-color: #003F82; margin-top: 10px; border-radius: 10px; float: left;}
+
+
+.welcome{width: 919px;  height: 600px; margin-left: 10px; margin-right: 110px; border-radius: 10px; background-color: rgba(0,0,0,0.3); float: left; text-align: center; color: blue;}
+
+
+/*======cst dnt student information=======*/
+.information{width: 100%; height: auto;background-color: darkgrey; float: left;  margin-bottom: 100px;}
+.informationin{width: 90%; height: auto;background-color: darkgrey; float: left; margin-left: 90px; }
+.information h1{text-align: center; display: block; color: white; margin-top: 10px;}
+.stuifo{height: 400PX; width: 390px; background-color: #F6F6F6; float: left; margin-left: 2px; margin-top: 2px; margin-bottom: 3px; border-radius: 4px; ;}
+
+.stuimge{height: 100px; width: 100px; margin-left: 150px; text-align: center; float: center; margin-top: 8px;}
+.stuimge img{border-radius: 100%}
+
+
+
+
